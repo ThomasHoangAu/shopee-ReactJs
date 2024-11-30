@@ -49,7 +49,7 @@ export default function SortProductList({ queryConfig, pageSize }: Props) {
     <div className='bg-gray-300/40 py-4 px-3'>
       <div className='flex flex-wrap items-center justify-between gap-2'>
         <div className='flex flex-wrap items-center gap-2'>
-          <div>Sắp xếp theo</div>
+          <div>Sort By</div>
           <button
             className={classNames('h-8 px-4 text-center text-sm capitalize ', {
               'bg-orange text-white hover:bg-orange/80': isActiveSortBy(sortBy.view),
